@@ -1,0 +1,80 @@
+/* COLLECTION */
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #000000;
+  color: #EAEAEA;
+  margin: 0;
+  padding: 0; 
+  line-height: 1.3;
+  font-size: 16px;
+  min-height: 100vh;
+  max-width: 100vw;
+  font-family: 'DM Sans', sans-serif;
+
+  background-image: url(images/sun.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position: center;
+
+}
+
+.no-bg {
+background-image: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+main{
+max-width: 1200px;
+margin: 25vh auto;
+
+}
+
+/* TYPOGRAPHY   
+====================================== */
+h1 {
+font-size: 64px;
+font-weight: 700;
+line-height:100%;
+margin: 0;
+}
+
+h2{
+font-size: 30px;
+text-align: center;
+}
+
+p{
+  color: #757575;
+  margin: 0 0 24px 0;
+  max-width: 32em;
+}
+
+.button {
+text-decoration: none;
+color: inherit;
+border: 2px solid #EAEAEA; 
+border-radius: 16px;
+padding: 4px 12px;
+display: inline-block ;
+margin-bottom: 24px;
+}
+
+/* GRID 
+=========================================== */
+
+.grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px 1fr)); 
+justify-content :center; 
+gap: 16px;
+padding: 16px;
+text-align: center;
+}
